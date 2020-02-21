@@ -71,7 +71,7 @@
       </li>
 
       <!-- Nav Item - Tables -->
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#tables-menu" aria-expanded="true" aria-controls="collapsePages">
           <i class="fas fa-table"></i>
           <span>Tables</span>
@@ -79,7 +79,7 @@
         <div id="tables-menu" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <a class="collapse-item" href="table-view-permohonan.php">Tabel Permohonan</a>
-            <a class="collapse-item" href="table-view-pengaduan.php">Tabel Pengaduan</a>
+            <a class="collapse-item active" href="table-view-pengaduan.php">Tabel Pengaduan</a>
             <a class="collapse-item" href="table-view-contact.php">Tabel Contact</a>
           </div>
         </div>

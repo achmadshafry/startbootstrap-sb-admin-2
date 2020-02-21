@@ -30,7 +30,7 @@
         <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item">
             <a class="nav-link" href="index.html">
                 <i class="fas fa-clipboard-list"></i>
                 <span>Dashboard</span></a>
@@ -45,7 +45,7 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
+            <li class="nav-item active">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
                 <i class="fas fa-file"></i>
                 <span>Pages</span>
@@ -54,7 +54,7 @@
                 <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Home PPID</h6>
                 <a class="collapse-item" href="edit-laporan.php">Laporan</a>
-                <a class="collapse-item" href="edit-berita.php">Berita</a>
+                <a class="collapse-item active" href="edit-berita.php">Berita</a>
                 </div>
             </div>
             </li>
