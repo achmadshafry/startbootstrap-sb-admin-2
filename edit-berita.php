@@ -53,17 +53,10 @@
             <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Home PPID</h6>
-                <a class="collapse-item" href="login.html">Laporan</a>
-                <a class="collapse-item" href="register.html">Berita</a>
+                <a class="collapse-item" href="edit-laporan.php">Laporan</a>
+                <a class="collapse-item" href="edit-berita.php">Berita</a>
                 </div>
             </div>
-            </li>
-
-            <!-- Nav Item - Charts -->
-            <li class="nav-item">
-            <a class="nav-link" href="charts.html">
-                <i class="fas fa-chart-bar"></i>
-                <span>Charts</span></a>
             </li>
 
             <li class="nav-item">
@@ -73,9 +66,9 @@
             </a>
             <div id="tables-menu" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="table-view-permohonan.php">Tabel Permohonan</a>
+                <a class="collapse-item" href="table-view-pengaduan.php">Tabel Pengaduan</a>
                 <a class="collapse-item" href="table-view-contact.php">Tabel Contact</a>
-                <a class="collapse-item" href="register.html">Tabel Permohonan</a>
-                <a class="collapse-item" href="forgot-password.html">Tabel Keberatan</a>
                 </div>
             </div>
             </li>
@@ -154,6 +147,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-10 mx-auto">
+                    <!-- <div class="col-lg"> -->
                         <h2 class="post-title text-center">Berita</h2>
                         <div class="text-right">
                             <button type="submit" class="btn btn-primary">Tambah</button>
@@ -162,8 +156,176 @@
                     </div>
                         
                         <div class="container">
-                            <div class="d-flex flex-row justify-content-center ">
-                                <div class="card shadow mr-3 mb-5" style="width: 18rem;">
+                            <div class="row mr-auto">
+
+                            
+                            <!-- <div class="d-flex flex-row justify-content-center "> -->
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm">
+                                    <div class="card shadow mb-5" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Berita 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#">Baca Selanjutnya</a>
+                                        <div class="text-right mt-1">
+                                            <button type="submit" class="btn btn-warning">Edit</button>
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <!-- <div class="card shadow mr-3 mb-5" style="width: 18rem;">
                                     <img class="card-img-top" src="img/pink.jpg" alt="Card image cap">
                                     <div class="card-body">
                                     <h5 class="card-title">Berita 1</h5>
@@ -198,9 +360,9 @@
                                         <button type="submit" class="btn btn-danger">Delete</button>
                                     </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 
-                            </div>
+                            <!-- </div> -->
                         </div>
 
                     

@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="css/sb-admin-2.css" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -62,25 +62,11 @@
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Home PPID</h6>
-            <a class="collapse-item" href="login.html">Laporan</a>
-            <a class="collapse-item" href="register.html">Berita</a>
+            <a class="collapse-item" href="edit-laporan.php">Laporan</a>
+            <a class="collapse-item" href="edit-berita.php">Berita</a>
           </div>
         </div>
       </li>
-
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-chart-bar"></i>
-          <span>Charts</span></a>
-      </li>
-
-      <!-- Nav Item - Tables -->
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
-      </li> -->
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#tables-menu" aria-expanded="true" aria-controls="collapsePages">
@@ -89,9 +75,9 @@
         </a>
         <div id="tables-menu" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="table-view-permohonan.php">Tabel Permohonan</a>
+            <a class="collapse-item" href="table-view-pengaduan.php">Tabel Pengaduan</a>
             <a class="collapse-item" href="table-view-contact.php">Tabel Contact</a>
-            <a class="collapse-item" href="register.html">Tabel Permohonan</a>
-            <a class="collapse-item" href="forgot-password.html">Tabel Keberatan</a>
           </div>
         </div>
       </li>
@@ -117,7 +103,7 @@
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
           <!-- Sidebar Toggle (Topbar) -->
-          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+          <button id="sidebarToggleTop" class="btn d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
           </button>
 
@@ -197,7 +183,7 @@
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Jumlah Keberatan</div>
+                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Jumlah Pengaduan</div>
                       <div class="h5 mb-0 font-weight-bold text-gray-800">100</div>
                     </div>
                   </div>
@@ -332,7 +318,7 @@
                 <div class="col-xl-12 col-lg-5">
                   <div class="card shadow mb-4">
                     <div class="card-header py-3">
-                      <h6 class="m-0 font-weight-bold text-success">Tabel Keberatan</h6>
+                      <h6 class="m-0 font-weight-bold text-success">Tabel Pengaduan</h6>
                     </div>
                     <div class="card-body">
                       <div class="table-responsive">

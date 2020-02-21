@@ -159,7 +159,7 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Tabel Form Hubungi Kami</h1>
+          <h1 class="h3 mb-2 text-gray-800">Tabel Form Pengaduan Masyarakat</h1>
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
@@ -169,13 +169,25 @@
                   <thead>
                     <tr>
                         <th>Nama</th>
+                        <th>JK</th>
+                        <th>Usia</th>
+                        <th>NoKTP</th>
+                        <th>Alamat</th>
+                        <th>Telp</th>
+                        <th>Fax</th>
                         <th>Email</th>
-                        <th>Subyek</th>
-                        <th>Message</th>
+                        <th>IDTerlapor</th>
+                        <th>Laporan</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
+                      <td>Tiger Nixon</td>
+                      <td>System Architect</td>
+                      <td>Edinburgh</td>
+                      <td>61</td>
+                      <td>2011/04/25</td>
+                      <td>$320,800</td>
                       <td>Tiger Nixon</td>
                       <td>System Architect</td>
                       <td>Edinburgh</td>

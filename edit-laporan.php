@@ -53,17 +53,10 @@
             <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Home PPID</h6>
-                <a class="collapse-item" href="login.html">Laporan</a>
-                <a class="collapse-item" href="register.html">Berita</a>
+                <a class="collapse-item" href="edit-laporan.php">Laporan</a>
+                <a class="collapse-item" href="edit-berita.php">Berita</a>
                 </div>
             </div>
-            </li>
-
-            <!-- Nav Item - Charts -->
-            <li class="nav-item">
-            <a class="nav-link" href="charts.html">
-                <i class="fas fa-chart-bar"></i>
-                <span>Charts</span></a>
             </li>
 
             <li class="nav-item">
@@ -73,9 +66,9 @@
             </a>
             <div id="tables-menu" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="table-view-permohonan.php">Tabel Permohonan</a>
+                <a class="collapse-item" href="table-view-pengaduan.php">Tabel Pengaduan</a>
                 <a class="collapse-item" href="table-view-contact.php">Tabel Contact</a>
-                <a class="collapse-item" href="register.html">Tabel Permohonan</a>
-                <a class="collapse-item" href="forgot-password.html">Tabel Keberatan</a>
                 </div>
             </div>
             </li>
